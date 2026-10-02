@@ -1,0 +1,35 @@
+# Version control
+.git
+.gitignore
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Test, lint, and coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# Files not needed at runtime
+tests/
+test_*.py
+requirements-dev.txt
+README.md
+run.sh
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
