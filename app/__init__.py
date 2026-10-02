@@ -1,0 +1,1 @@
+"""AI Guru tutorial application package."""
